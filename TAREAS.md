@@ -20,7 +20,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **6. Lectura con Gemini (`vision.py`)**
   `leer_hoja(imagen_bytes, mime) -> Registro`. Prompt en español que pida solo JSON con los campos del esquema, con `null` si un campo no se lee, sin inventar. Usa salida estructurada (JSON) del SDK. Maneja JSON inválido o un error de la API devolviendo un error claro. Tests con el cliente mockeado (caso bueno, campos faltantes, JSON roto).
 
-- [ ] **7. Apps Script (`apps_script/Code.gs`)**
+- [x] **7. Apps Script (`apps_script/Code.gs`)**
   `doPost` con acciones `append`, `update_estado` (por `id_mensaje`) y `resumen` (suma los kg y soles confirmados del mes para un teléfono). Valida el secreto. Crea los encabezados si la hoja está vacía. Responde JSON.
 
 - [ ] **8. Cliente de Sheets (`sheets.py`)**
