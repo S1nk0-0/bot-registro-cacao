@@ -5,7 +5,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **1. Base del proyecto**
   `requirements.txt`, `.env.example`, `.gitignore` (incluye `.env`), `app/config.py`, `GET /health` y un test que pase.
 
-- [ ] **2. Verificación del webhook**
+- [x] **2. Verificación del webhook**
   `GET /webhook` devuelve `hub.challenge` si `hub.verify_token` coincide; si no, 403. Tests para los dos casos.
 
 - [ ] **3. Recepción de mensajes**
