@@ -14,7 +14,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **4. Cliente de WhatsApp (`whatsapp.py`)**
   `descargar_media(media_id)` (obtener la URL y luego bajar los bytes con el token), `enviar_texto(to, texto)` y `enviar_botones(to, texto, botones)` con reply buttons. Tests con respx que verifiquen la URL, los headers y el body.
 
-- [ ] **5. Esquema (`schema.py`)**
+- [x] **5. Esquema (`schema.py`)**
   Modelo pydantic con los campos de CLAUDE.md, todos opcionales salvo los metadatos. Validación: números ≥ 0, fecha en formato válido, cálculo de `total` si falta y `confianza` baja si no cuadra. Tests.
 
 - [ ] **6. Lectura con Gemini (`vision.py`)**
