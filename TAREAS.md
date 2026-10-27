@@ -8,7 +8,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **2. Verificación del webhook**
   `GET /webhook` devuelve `hub.challenge` si `hub.verify_token` coincide; si no, 403. Tests para los dos casos.
 
-- [ ] **3. Recepción de mensajes**
+- [x] **3. Recepción de mensajes**
   `POST /webhook` parsea el payload de Meta, responde 200 de inmediato y manda a `handlers.py` según el tipo (image, interactive/button_reply, text). Ignora los payloads de estado (statuses) y los ids repetidos. Fixtures con payloads reales de ejemplo. Tests.
 
 - [ ] **4. Cliente de WhatsApp (`whatsapp.py`)**
