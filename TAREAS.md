@@ -11,7 +11,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **3. Recepción de mensajes**
   `POST /webhook` parsea el payload de Meta, responde 200 de inmediato y manda a `handlers.py` según el tipo (image, interactive/button_reply, text). Ignora los payloads de estado (statuses) y los ids repetidos. Fixtures con payloads reales de ejemplo. Tests.
 
-- [ ] **4. Cliente de WhatsApp (`whatsapp.py`)**
+- [x] **4. Cliente de WhatsApp (`whatsapp.py`)**
   `descargar_media(media_id)` (obtener la URL y luego bajar los bytes con el token), `enviar_texto(to, texto)` y `enviar_botones(to, texto, botones)` con reply buttons. Tests con respx que verifiquen la URL, los headers y el body.
 
 - [ ] **5. Esquema (`schema.py`)**
