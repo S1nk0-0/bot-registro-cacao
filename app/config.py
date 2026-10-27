@@ -23,7 +23,7 @@ def whatsapp_verify_token() -> str:
 
 
 def graph_api_version() -> str:
-    return _env("GRAPH_API_VERSION", "v21.0")
+    return _env("GRAPH_API_VERSION", "v25.0")
 
 
 def gemini_api_key() -> str:
@@ -31,7 +31,7 @@ def gemini_api_key() -> str:
 
 
 def gemini_model() -> str:
-    return _env("GEMINI_MODEL", "gemini-2.5-flash")
+    return _env("GEMINI_MODEL", "gemini-flash-latest")
 
 
 def sheets_webapp_url() -> str:

@@ -39,7 +39,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **10. Hoja de ejemplo**
   `tests/fixtures/hoja_ejemplo.png`: genera una imagen simple de una hoja de libreta con 1 o 2 ventas de cacao (con Pillow), para que el equipo la use en pruebas manuales.
 
-- [ ] **11. README**
+- [x] **11. README**
   Qué hace el bot, cómo instalarlo, cómo llenar `.env`, cómo publicar el Apps Script, cómo correrlo con ngrok, cómo configurar el webhook en Meta (URL + verify token + suscripción a `messages`) y cómo probarlo con el número de prueba. Incluye la sección "Pendientes".
 
 - [ ] **12. Revisión final**
