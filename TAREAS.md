@@ -23,7 +23,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **7. Apps Script (`apps_script/Code.gs`)**
   `doPost` con acciones `append`, `update_estado` (por `id_mensaje`) y `resumen` (suma los kg y soles confirmados del mes para un teléfono). Valida el secreto. Crea los encabezados si la hoja está vacía. Responde JSON.
 
-- [ ] **8. Cliente de Sheets (`sheets.py`)**
+- [x] **8. Cliente de Sheets (`sheets.py`)**
   Funciones para las tres acciones del Apps Script. Tests con respx.
 
 - [ ] **9. Flujo completo (`handlers.py`)**
