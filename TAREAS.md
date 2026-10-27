@@ -17,7 +17,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **5. Esquema (`schema.py`)**
   Modelo pydantic con los campos de CLAUDE.md, todos opcionales salvo los metadatos. Validación: números ≥ 0, fecha en formato válido, cálculo de `total` si falta y `confianza` baja si no cuadra. Tests.
 
-- [ ] **6. Lectura con Gemini (`vision.py`)**
+- [x] **6. Lectura con Gemini (`vision.py`)**
   `leer_hoja(imagen_bytes, mime) -> Registro`. Prompt en español que pida solo JSON con los campos del esquema, con `null` si un campo no se lee, sin inventar. Usa salida estructurada (JSON) del SDK. Maneja JSON inválido o un error de la API devolviendo un error claro. Tests con el cliente mockeado (caso bueno, campos faltantes, JSON roto).
 
 - [ ] **7. Apps Script (`apps_script/Code.gs`)**

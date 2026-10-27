@@ -1,0 +1,11 @@
+{
+  "codigo_registro": "CAC-002",
+  "fecha": null,
+  "codigo_productor": "P-020",
+  "producto": "cacao",
+  "cantidad_kg": 12.5,
+  "precio_kg": 8.0,
+  "total": null,
+  "comprador": null,
+  "observaciones": null
+}

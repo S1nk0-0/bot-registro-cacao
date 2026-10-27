@@ -1,0 +1,11 @@
+{
+  "codigo_registro": "CAC-001",
+  "fecha": "2026-10-28",
+  "codigo_productor": "P-014",
+  "producto": "cacao",
+  "cantidad_kg": 20,
+  "precio_kg": 8.0,
+  "total": 160.0,
+  "comprador": "Cooperativa X",
+  "observaciones": null
+}
