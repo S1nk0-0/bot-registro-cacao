@@ -36,7 +36,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 
   Tests de punta a punta de cada camino con todo mockeado.
 
-- [ ] **10. Hoja de ejemplo**
+- [x] **10. Hoja de ejemplo**
   `tests/fixtures/hoja_ejemplo.png`: genera una imagen simple de una hoja de libreta con 1 o 2 ventas de cacao (con Pillow), para que el equipo la use en pruebas manuales.
 
 - [ ] **11. README**
