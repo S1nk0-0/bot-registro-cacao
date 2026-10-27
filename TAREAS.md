@@ -26,7 +26,7 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **8. Cliente de Sheets (`sheets.py`)**
   Funciones para las tres acciones del Apps Script. Tests con respx.
 
-- [ ] **9. Flujo completo (`handlers.py`)**
+- [x] **9. Flujo completo (`handlers.py`)**
   - Foto: acuse → descargar → Gemini → append `pendiente` → resumen + botones Sí/No (el id del botón incluye `id_mensaje`).
   - Botón Sí → `confirmado` + "¡Listo, quedó registrado!".
   - Botón No → `revisar` + pedir la foto otra vez, más clara y con buena luz.
