@@ -42,5 +42,5 @@ Trabaja en orden. Al terminar cada una: `pytest` en verde, marca [x] y haz commi
 - [x] **11. README**
   Qué hace el bot, cómo instalarlo, cómo llenar `.env`, cómo publicar el Apps Script, cómo correrlo con ngrok, cómo configurar el webhook en Meta (URL + verify token + suscripción a `messages`) y cómo probarlo con el número de prueba. Incluye la sección "Pendientes".
 
-- [ ] **12. Revisión final**
+- [x] **12. Revisión final**
   `pytest` con 0 fallos, sin secretos en el repo (revisa con `git grep`), ningún TODO suelto en el código y todo commiteado.
